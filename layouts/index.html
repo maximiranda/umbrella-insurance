@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+
+  <div class="row justify-content-center" >
+    <div class="col-lg-9 text-center pt-5" >
+      <img src="/images/vendor/slingr_blue.png" alt="Alternative Text"  style="width: 80%; height: auto;" >
+
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center pt-4">
+      <p class="lead" style="margin-bottom: 30px;  ">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4" style="margin-bottom: 50px;" href="/docs/prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+    </div>
+    
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if eq $.Site.Language.LanguageName "English" }}
+  <section class="section section-sm">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <span style='font-size:80px;'>💻</span>
+          <h2 class="h4"><a href="https://platform-docs.slingr.io/getting-started-whats-slingr-stack.html">What is Slingr?</a></h2>
+          <p>Brief explanation of <a href="https://platform-docs.slingr.io/getting-started-whats-slingr-stack.html">Slingr</a>. Define your business rules and data model, and get a working app with a UI and REST API automatically.</p>
+        </div>
+        <div class="col-lg-5">
+          <span style='font-size:80px;'>💸</span>
+          <h2 class="h4"><a href="https://developer-portal.slingrs.io/signUp.html">Sign Up Free</a></h2>
+          <p>Start building amazing apps with Slingr!  Create a developer <a href="https://developer-portal.slingrs.io/signUp.html">Account</a>  today and bring your ideas to life with this powerful platform. Don't wait - unleash your creativity now!</p>
+        </div>
+        <div class="col-lg-5">
+          <span style='font-size:80px;'>👋</span>
+          <h2 class="h4"><a href="https://www.youtube.com/channel/UCVC7opcy2Yi3vFf73CuajXw">Slingr Channel</a></h2>
+          <p> Ready to join the Slingr community and take your app-building skills to the next level? Check out <a href="https://www.youtube.com/channel/UCVC7opcy2Yi3vFf73CuajXw"> Slingr Channel </a> for a firsthand look at the power of our platform!  
+          </p>
+          <br>
+          <br>
+          <br>
+        </div>
+        <img src="/images/vendor/woman-technologist-2405.png" alt="Alternative Text"  style="width: 15%; height: auto;" >
+      </div>
+
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
