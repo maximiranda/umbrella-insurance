@@ -28,4 +28,8 @@ Overall, our team's success with low-code tools highlights the many benefits tha
 - increased collaboration
 - faster time-to-market
 
-We are proud of the work we accomplished during the Slingr Bootcamp and believe that <b>low-code tools will continue to play an important role in our future projects.</b>
+
+
+{{< alert context="doubt" icon="">}}
+We are proud of the work we accomplished during the Slingr Bootcamp and believe that low-code tools will continue to play an important role in our future projects.
+{{< /alert >}}
