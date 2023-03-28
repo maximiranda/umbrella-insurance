@@ -12,4 +12,4 @@ menu:
 weight: 60
 toc: true
 ---
-Our landing page offers excellent service and great value for our clients. We believe insurance should be easy, affordable, and personalized to your needs. Our page is designed to work well on all devices and provides a visually appealing and user-friendly experience. We aim to convert visitors into customers and are committed to providing a great online experience.goal.
+Our landing page offers excellent service and great value for our clients. We believe insurance should be <code>easy, affordable, and personalized</code> to your needs. Our page is designed to work well on all devices and provides a visually appealing and <code>user-friendly experience</code>. We aim to convert <code>visitors into customers</code> and are committed to providing a great online experience.goal.
