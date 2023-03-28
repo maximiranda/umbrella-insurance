@@ -1,21 +1,25 @@
-{{ $fillImage := .Scratch.Get "fillImageCard" }}
+<!-- {{ $fillImage := .Scratch.Get "fillImageCard" }}
 {{ if not $fillImage -}}
   {{ $fillImage = site.Params.fillImage }}
-{{ end -}}
+{{ end -}} -->
 {{ $image := resources.GetMatch (printf "**%s" (index .Params.images 0)) }}
 {{ if not $image -}}
   {{ $image = resources.GetMatch (printf "%s%s" "images/" site.Params.defaultImage) }}
 {{ end -}}
-{{ $webp := printf "%s%s" $fillImage " webp" }}
+<!-- {{ $webp := printf "%s%s" $fillImage " webp" }}
 {{ $image = $image.Resize $webp}}
 
-{{ $lqip := $image.Resize site.Params.lqipWidth -}}
+{{ $lqip := $image.Resize site.Params.lqipWidth -}} -->
+<!-- <style>
+  .img-responsive {
 
-
+    object-fit: contain !important;
+  }
+</style>-->
 <img
-  class="card-img-top img-fluid lazyload blur-up"
-  src="{{ $lqip.Permalink }}"
+  class="card-img-top"
+  src="{{$image.Permalink}}"
+  height="400"
+  width="500"
   data-src="{{ $image.Permalink }}"
-  width="100"
-  height="200"
   alt="{{ .Title }}">

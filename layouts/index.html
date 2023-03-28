@@ -4,6 +4,10 @@
     background: linear-gradient(#132e43, #669acd);
     color: white !important;
   }
+
+  .bg-umbrella {
+    background-color: #132e43 !important;
+  }
 </style>
 <section class="section container-fluid mt-n3 pb-3">
 
@@ -14,7 +18,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center pt-4">
       <p class="lead" style="margin-bottom: 30px;  ">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4" style="margin-bottom: 50px;" href="/docs/prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <a class="btn btn-lg px-4" style="margin-bottom: 50px; background-color:#5e9aec; color: white;" href="/docs/prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
     </div>
     
   </div>
@@ -28,7 +32,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     <div class="container">
-      <div class="row justify-content-center text-center">
+      <!-- <div class="row justify-content-center text-center">
         <div class="col-lg-5">
           <span style='font-size:80px;'>💻</span>
           <h2 class="h4"><a href="https://platform-docs.slingr.io/getting-started-whats-slingr-stack.html">What is Slingr?</a></h2>
@@ -49,8 +53,64 @@
           <br>
         </div>
         <img src="/images/vendor/woman-technologist-2405.png" alt="Alternative Text"  style="width: 15%; height: auto;" >
+      </div> -->
+      <div class="text-center">
+        <h2>Meet Our Team</h2>
       </div>
-
+      <div class="d-flex gap-2 flex-column flex-lg-row gap-lg-4 justify-content-center align-items-center">
+        <div class="card bg-umbrella border-0" style="width: 25rem;">
+          <img src="/images/vendor/pauli.jpg" alt="">
+          <div class="card-body">
+            <article class="text-center">
+              <h2 class="h3">Paula Morales</a></h2>
+              <p class="">Team Lead</p>
+            </article>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a>
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="30px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-umbrella border-0" style="width: 25rem;">
+          <img src="/images/vendor/juanbi.png" alt="">
+          <div class="card-body">
+            <article class="text-center">
+              <h2 class="h3">Juan Amelio</a></h2>
+              <p class="">Full Stack Developer</p>
+            </article>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a>
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="30px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-umbrella border-0" style="width: 25rem;">
+          <img src="/images/vendor/julia.jpg" alt="">
+          <div class="card-body">
+            <article class="text-center">
+              <h2 class="h3">Julia Locamuz</a></h2>
+              <p class="">Full Stack Developer</p>
+            </article>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a>
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="30px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-umbrella border-0" style="width: 25rem;">
+          <img src="/images/vendor/maxi.jpeg" alt="">
+          <div class="card-body">
+            <article class="text-center">
+              <h2 class="h3">Maxi Miranda</a></h2>
+              <p class="">Full Stack Developer</p>
+            </article>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30px" height="50px"><path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"/></svg></a>
+              <a href=""><svg fill="gray" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="30px">    <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
   {{ end }}
 {{ end }}
