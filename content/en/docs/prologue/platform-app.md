@@ -37,6 +37,7 @@ The <code>goal of the platform</code> is to provide the company with a comprehen
 
 To achieve this goal, Slingr was used as a <code>cloud-based low code platform</code>. Slingr offers tools and features to automate workflows and increase efficiency. It allows businesses to customize workflows and integrate data from various sources.
 
+{{< /callout >}}
 
 
 {{< callout type="default" contend="" >}}
