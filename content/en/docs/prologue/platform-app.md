@@ -21,7 +21,12 @@ toc: true
 {{< /callout >}}
 
 
-The goal of the platform is to provide the company with a comprehensive system to manage policies, claims, and clients efficiently. <br> The platform includes features to create policies, create claims, and manage them. Additionally, listeners are available that automatically update policy status based on their expiration and effective dates. <br> An automatic mail sender is included to notify agents when claims are created and clients when the status of their claims change.<br> Finally, a metrics dashboard is available to give the administrator of the company different data to monitor their business.
+The <code>goal of the platform</code> is to provide the company with a comprehensive system to manage policies, claims, and clients efficiently.<br>
+<div class="summary2">The platform includes <b>features to create policies, create claims, and manage them.</b></div>
+
+<div class="summary2">Additionally, listeners are available that <b>automatically update policy status based on their expiration and effective dates.</b></div> 
+<div class="summary2"> An <b>automatic mail sender </b>is included to notify agents when claims are created and clients when the status of their claims change.</div>
+<div class="summary2"> Finally, a <b>metrics dashboard</b> is available to give the administrator of the company different data to monitor their business.</div>
 {{< /callout >}}
 
 
@@ -30,16 +35,8 @@ The goal of the platform is to provide the company with a comprehensive system t
 <b>Technology</b>
 {{< /callout >}}
 
-To achieve this goal, Slingr was used as a cloud-based low code platform. Slingr offers tools and features to automate workflows and increase efficiency. It allows businesses to customize workflows and integrate data from various sources.
+To achieve this goal, Slingr was used as a <code>cloud-based low code platform</code>. Slingr offers tools and features to automate workflows and increase efficiency. It allows businesses to customize workflows and integrate data from various sources.
 
-
-
-User types: There are three different types of users on the platform. Customers, agents, and admins.
-
-Features by users: Customers can access their information and create claims on the platform. Agents can access their customers' information, create policies, and manage claims. Admins have access to all customer information, and they have the same permissions as agents. Additionally, they can see a metrics dashboard to monitor their business.
-
-Integration: Mailchimp was integrated into the platform to automatically send emails notifying customers when their policies are about to expire.
-{{< /callout >}}
 
 
 {{< callout type="default" contend="" >}}
@@ -47,7 +44,15 @@ Integration: Mailchimp was integrated into the platform to automatically send em
 <b>User Types</b>
 {{< /callout >}}
 There are three different types of users on the platform. 
-<li>Customers</li>
-<li>Agents</li>
-<li>Admins</li>
+<div class="summary2"><b>Customers</b><br> can access their information and create claims on the platform.</div>
+<div class="summary2"><b>Agents</b><br> can access their customers' information, create policies, and manage claims</div>
+<div class="summary2"><b>Admins</b><br> have access to all customer information, and they have the same permissions as agents. <br> Additionally, they can see a metrics dashboard to monitor their business. </div>
+{{< /callout >}}
+
+
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>Integration</b>
+{{< /callout >}}
+Mailchimp was integrated into the platform to <code>automatically send emails</code> notifying customers when their policies are about to expire.
 {{< /callout >}}
