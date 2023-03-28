@@ -16,10 +16,10 @@ toc: true
 Umbrella Insurance, based in Mendoza, Argentina, is an <code>insurance company</code> that aims to provide peace of mind to its customers by <code>safeguarding them from financial loss</code> caused by unforeseen events such as accidents, illnesses, or natural disasters.<br>
 <br>
 To achieve this goal, the company needs a digital solution that offers various features such as 
-- user registration and login
-- policy issuance
-- claims reporting and tracking
-- policy and coverage management capabilities
+<div class="summary2">user registration and login</div>
+<div class="summary2">policy issuance</div>
+<div class="summary2">claims reporting and tracking</div>
+<div class="summary2">policy and coverage management capabilities</div>
 
 Additionally, the digital solution should incorporate <code>robust security features </code>such as data encryption to ensure the privacy and security of user data. <br>
 The interface of the application should be user-friendly and enable users to manage their policies and claims seamlessly.

@@ -12,8 +12,27 @@ menu:
 weight: 50
 toc: true
 ---
-Goal: The goal is to provide the company's clients with an easy and fast way to access their information and communicate with their agents.
 
-Technology: To achieve this goal, Flutter Flow was used as a web-based platform. Flutter Flow allows developers to create and deploy mobile and web applications quickly and easily using a visual drag-and-drop interface.
 
-User features: The mobile app is designed for company customers. It provides a platform for customers to view their policies' status and all the relevant information regarding their policies and coverages. Customers can also use the app to communicate with their agents.
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>Goal</b>
+{{< /callout >}}
+
+The goal is to provide the company's clients with an easy and fast way to access their information and communicate with their agents.
+{{< /callout >}}
+
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>Technology</b>
+{{< /callout >}}
+To achieve this goal, Flutter Flow was used as a web-based platform. Flutter Flow allows developers to create and deploy mobile and web applications quickly and easily using a visual drag-and-drop interface.
+{{< /callout >}}
+
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>User features</b>
+{{< /callout >}}
+The mobile app is designed for company customers. It provides a platform for customers to view their policies' status and all the relevant information regarding their policies and coverages. Customers can also use the app to communicate with their agents.
+{{< /callout >}}
+
