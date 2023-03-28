@@ -8,57 +8,69 @@
   .bg-umbrella {
     background-color: #132e43 !important;
   }
+  .main-content {
+    height: 80vh;
+  }
+  .vh-50 {
+    height: 50vh !important;
+  }
 </style>
-<section class="section container-fluid mt-n3 pb-3">
+  <section class="vh-50 section container-fluid mt-n3 pb-3">
 
-  <div class="row justify-content-center" >
-    <div class="col-lg-9 text-center pt-5" >
-      <img src="/images/vendor/logo-white.png" alt="Alternative Text"  style="width: 80%; height: auto;" >
+    <div class="row justify-content-center" >
+      <div class="col-lg-9 text-center pt-5" >
+        <img src="/images/vendor/logo-white.png" alt="Alternative Text"  style="width: 100%; height: auto;" >
 
+      </div>
+      <div class="col-lg-9 col-xl-8 text-center pt-4">
+        <p class="lead" style="margin-bottom: 30px;  ">{{ .Params.lead | safeHTML }}</p>
+        <a class="btn btn-lg px-4" style="margin-bottom: 50px; background-color:#5e9aec; color: white;" href="/docs/prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      </div>
+      
     </div>
-    <div class="col-lg-9 col-xl-8 text-center pt-4">
-      <p class="lead" style="margin-bottom: 30px;  ">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-lg px-4" style="margin-bottom: 50px; background-color:#5e9aec; color: white;" href="/docs/prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-    </div>
-    
-  </div>
-</section>
-{{ end }}
+  </section>
+  {{ end }}
 
-{{ define "sidebar-prefooter" }}
-  {{ if eq $.Site.Language.LanguageName "English" }}
-  <section class="section section-sm">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    
+  {{ define "sidebar-prefooter" }}
+    {{ if eq $.Site.Language.LanguageName "English" }}
+    <section class="vh-50 d-flex justify-content-center align-items-center section section-sm">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-5">
+            <span style='font-size:80px;'>☂️</span>
+            <h2 class="h4">What is Umbrella?</h2>
+            <p><a class="link-info" href="https://umbrellainsurance.webflow.io/">Umbrella Insurance</a> allows users to buy and renew policies, manage claims and receive roadside assistance. It also offers alerts and reminders, and personalization of coverage options.</p>
+          </div>
+          <div class="col-lg-5">
+            <span style='font-size:80px;'><img src="/images/vendor/slingr_blue.png" width="200px" alt=""></span>
+            <h2 class="h4">Slingr Low-Code</a></h2>
+            <p>Brief explanation of <a class="link-info" href="https://www.slingr.io/">Slingr</a>. Define your business rules and data model, and get a working app with a UI and REST API automatically.</p>
+          </div>
+          <div class="col-lg-5">
+            <span style='font-size:80px;'><img src="/images/vendor/rubber-duck.png" width="100px" alt=""></span>
+            <h2 class="h4">Rubber Ducks</h2>
+            <p> Ready to join the Slingr community and take your app-building skills to the next level? Check out <a href="https://www.youtube.com/channel/UCVC7opcy2Yi3vFf73CuajXw"> Slingr Channel </a> for a firsthand look at the power of our platform!  
+            </p>
+            <br>
+            <br>
+            <br>
+          </div>
+    </section>
+    {{ end }}
+  <section id="team" class="section section-sm">
     <div class="container">
-      <!-- <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <span style='font-size:80px;'>💻</span>
-          <h2 class="h4"><a href="https://platform-docs.slingr.io/getting-started-whats-slingr-stack.html">What is Slingr?</a></h2>
-          <p>Brief explanation of <a href="https://platform-docs.slingr.io/getting-started-whats-slingr-stack.html">Slingr</a>. Define your business rules and data model, and get a working app with a UI and REST API automatically.</p>
-        </div>
-        <div class="col-lg-5">
-          <span style='font-size:80px;'>💸</span>
-          <h2 class="h4"><a href="https://developer-portal.slingrs.io/signUp.html">Sign Up Free</a></h2>
-          <p>Start building amazing apps with Slingr!  Create a developer <a href="https://developer-portal.slingrs.io/signUp.html">Account</a>  today and bring your ideas to life with this powerful platform. Don't wait - unleash your creativity now!</p>
-        </div>
-        <div class="col-lg-5">
-          <span style='font-size:80px;'>👋</span>
-          <h2 class="h4"><a href="https://www.youtube.com/channel/UCVC7opcy2Yi3vFf73CuajXw">Slingr Channel</a></h2>
-          <p> Ready to join the Slingr community and take your app-building skills to the next level? Check out <a href="https://www.youtube.com/channel/UCVC7opcy2Yi3vFf73CuajXw"> Slingr Channel </a> for a firsthand look at the power of our platform!  
-          </p>
-          <br>
-          <br>
-          <br>
-        </div>
+      <div class="d-flex justify-content-center align-items-center">
         <img src="/images/vendor/woman-technologist-2405.png" alt="Alternative Text"  style="width: 15%; height: auto;" >
-      </div> -->
+      </div>
+      </div>
       <div class="text-center">
         <h2>Meet Our Team</h2>
       </div>
       <div class="d-flex gap-2 flex-column flex-lg-row gap-lg-4 justify-content-center align-items-center">
-        <div class="card bg-umbrella border-0" style="width: 25rem;">
+        <div class="card bg-umbrella border-0" style="width: 20rem;">
           <img src="/images/vendor/pauli.jpg" alt="">
           <div class="card-body">
             <article class="text-center">
@@ -71,7 +83,7 @@
             </div>
           </div>
         </div>
-        <div class="card bg-umbrella border-0" style="width: 25rem;">
+        <div class="card bg-umbrella border-0" style="width: 20rem;">
           <img src="/images/vendor/juanbi.png" alt="">
           <div class="card-body">
             <article class="text-center">
@@ -84,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="card bg-umbrella border-0" style="width: 25rem;">
+        <div class="card bg-umbrella border-0" style="width: 20rem;">
           <img src="/images/vendor/julia.jpg" alt="">
           <div class="card-body">
             <article class="text-center">
@@ -97,7 +109,7 @@
             </div>
           </div>
         </div>
-        <div class="card bg-umbrella border-0" style="width: 25rem;">
+        <div class="card bg-umbrella border-0" style="width: 20rem;">
           <img src="/images/vendor/maxi.jpeg" alt="">
           <div class="card-body">
             <article class="text-center">
@@ -111,8 +123,8 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
-  {{ end }}
 {{ end }}
 
 {{ define "sidebar-footer" }}
