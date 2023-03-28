@@ -13,7 +13,7 @@ weight: 70
 toc: true
 ---
 
-We built our website using Hugo, a modern static site generator for fast and efficient development. Our website provides a detailed record of our project's design, development, and features to give you valuable insights into our work. Thank you for checking out our documentation, and stay tuned for more updates from our team!
+We built our website using Hugo, a modern static site generator for fast and efficient development. Our website provides a detailed record of our project's <code>design, development, and features</code> to give you valuable insights into our work. Thank you for checking out our documentation, and stay tuned for more updates from our team!
 
 
 

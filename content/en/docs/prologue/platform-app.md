@@ -13,8 +13,6 @@ weight: 40
 toc: true
 ---
 
-
-
 {{< callout type="default" contend="" >}}
 {{< callout type="default" contend="" >}}
 <b>Goal</b>
@@ -40,13 +38,30 @@ To achieve this goal, Slingr was used as a <code>cloud-based low code platform</
 
 
 {{< callout type="default" contend="" >}}
+
 {{< callout type="default" contend="" >}}
 <b>User Types</b>
 {{< /callout >}}
 There are three different types of users on the platform. 
-<div class="summary2"><b>Customers</b><br> can access their information and create claims on the platform.</div>
-<div class="summary2"><b>Agents</b><br> can access their customers' information, create policies, and manage claims</div>
-<div class="summary2"><b>Admins</b><br> have access to all customer information, and they have the same permissions as agents. <br> Additionally, they can see a metrics dashboard to monitor their business. </div>
+<div class="summary2"><b>👩🏻 Customers can...</b><br> 
+<ul class="list-group">
+  <li class="list-group-item">Manage their insurance claims through our advanced <code>claims filling system.</code></li>
+  <li class="list-group-item"> Take a look at their <code>policies</code> and all of their unique <code>features.</code></li>
+</ul>
+</div>
+<div class="summary2"><b>👱🏼 Agents can...</b><br>
+ <ul class="list-group">
+<li class="list-group-item"><code>Create custom policies</code> tailored to the unique needs of their clients.</li>
+<li class="list-group-item">Quickly <code>create new claims, request changes </code>, and <code>manage ther clients' claims</code> with ease through our intuitive <code>workflow view.</code></li>
+<li class="list-group-item"><code>Create new customers </code> and explore our wide <code>range of coverage options.</code></li>
+ </ul>
+ </div>
+<div class="summary2"><b>👩🏽‍💻 Admins can...</b><br>
+<ul class="list-group">
+<li class="list-group-item">Have access to a <code>metrics dashboard </code>that provides descriptive graphics to help admins understand the bigger picture of transactions and numbers within the app.</li>
+<li class="list-group-item">Have the ability to <code>create new policies, claims, and users, and can easily view all users within the system.</code></li>
+<li class="list-group-item">Use <code>restore data function</code> with default values.</li>
+</ul>
 {{< /callout >}}
 
 
