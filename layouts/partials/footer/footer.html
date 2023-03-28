@@ -5,24 +5,21 @@
     }
   </style>
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }}">
-    <div class="row">
-      <div class="order-last order-lg-first" >
+    <div class="d-lg-flex justify-content-lg-between align-items-lg-center">
+        <img src="/images/vendor/logo-white.png" alt="Alternative Text"  style="width: 100px; height: auto;" >
+      <div class="" >
         <ul class="list-inline">
           <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
-          <br>
-          <img src="/images/vendor/logo-white.png" alt="Alternative Text"  style="width: 8%; height: auto;" >
-
         </ul>
-
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+      <!-- <div class="col-lg-8 order-first order-lg-last text-lg-end">
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
             <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
             
           {{ end -}}
         </ul>
-        </div>
+        </div> -->
       
 
     </div>

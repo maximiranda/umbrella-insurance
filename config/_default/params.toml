@@ -64,9 +64,9 @@ imageAddClass = "img-fluid lazyload blur-up"
 defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
-footer = "©2023 Slingr. All rights reserved.<br>Page last updated: Octobre 5, 2016<br>Site last generated: Feb 28, 2023"
+footer = "©2023 Umbrella Insurance. All rights reserved"
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2022-2023 Umbrella"
 
 # Alert
 alert = false
