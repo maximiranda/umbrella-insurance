@@ -29,20 +29,24 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Roadmap"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
+  name = "Home"
+  url = "/"
   weight = 10
 
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
 
 [[main]]
+  name = "Roadmap"
+  url = "/docs/prologue/introduction/"
+  weight = 10
+
+  [[main]]
   name = "Team"
-  url = "/team/"
-  weight = 20
+  url = "#team"
+  weight = 10
+
+  
+
+
 
 [[social]]
   name = "GitHub"
