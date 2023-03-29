@@ -14,12 +14,34 @@ toc: true
 weight: 10
 ---
 
+<style>
+.centerimage {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+
+}
+</style>
+
+<div  class="centerimage">
+<img width="auto" height="500" src="/images/vendor/patito.jpeg">
+</div>
+
+
 We successfully developed our insurance solution during the `Slingr Bootcamp` by effectively utilizing `low-code tools`
 
 
  We were able to leverage the `benefits of low-code` platforms, including the ability to automate tasks and streamline processes, resulting in a comprehensive solution to a complex problem.
 
-Through the use of low-code tools, we were able to quickly build and deploy applications `without having to spend a significant amount of time coding`. This allowed us to focus on the development of the solution and provide a fast time-to-market for our project. Additionally, automating repetitive tasks like data entry and report generation allowed us to be more productive and allocate our time to more strategic activities.
+
+
+
+
+Through the use of low-code tools, we were able to quickly build and deploy applications `without having to spend a significant amount of time solving tehnical issues`. This allowed us to focus on the development of the solution and provide a fast time-to-market for our project. Automating repetitive tasks like data entry and report generation allowed us to be more productive and allocate our time to more strategic activities.
+<div  class="centerimage">
+<img width="auto" height="450" src="/images/vendor/bootcamp1.jpeg">
+</div>
 
 The built-in collaboration features of low-code platforms were also incredibly beneficial for our team. We were able to `easily work together` on the project and communicate effectively with each other, resulting in a more efficient and effective development process. These collaboration tools helped us to minimize errors and delays and ultimately deliver a high-quality solution to the problem at hand.
 
@@ -27,7 +49,6 @@ Overall, our team's success with low-code tools highlights the many benefits tha
 - increased productivity 
 - increased collaboration
 - faster time-to-market
-
 
 
 {{< alert context="doubt" icon="">}}

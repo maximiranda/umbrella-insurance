@@ -36,3 +36,15 @@ To achieve this goal, Flutter Flow was used as a web-based platform. Flutter Flo
 The mobile app is designed for company customers. It provides a platform for customers to view their policies' status and all the relevant information regarding their policies and coverages. Customers can also use the app to communicate with their agents.
 {{< /callout >}}
 
+<div  class="centerimage">
+<img width="auto" height="500" src="/images/vendor/phone.gif">
+</div>
+<style>
+.centerimage {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+
+}
+

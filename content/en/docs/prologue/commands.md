@@ -13,13 +13,14 @@ weight: 30
 toc: true
 ---
 
-Umbrella Insurance, based in Mendoza, Argentina, is an <code>insurance company</code> that aims to provide peace of mind to its customers by <code>safeguarding them from financial loss</code> caused by unforeseen events such as accidents, illnesses, or natural disasters.<br>
+Umbrella Insurance, based in Mendoza, Argentina, is an <code>fictitious insurance company</code> that aims to provide peace of mind to its customers by <code>safeguarding them from financial loss</code> caused by unforeseen events such as accidents, illnesses, or natural disasters.<br>
 <br>
 To achieve this goal, the company needs a digital solution that offers various features such as 
-<div class="summary2">user registration and login</div>
-<div class="summary2">policy issuance</div>
-<div class="summary2">claims reporting and tracking</div>
-<div class="summary2">policy and coverage management capabilities</div>
+
+<div class="summary2">User Management</div>
+<div class="summary2">Policies Management</div>
+<div class="summary2">Claims Management</div>
+<div class="summary2">Coverages and metrics administration</div>
 
 Additionally, the digital solution should incorporate <code>robust security features </code>such as data encryption to ensure the privacy and security of user data. <br>
 The interface of the application should be user-friendly and enable users to manage their policies and claims seamlessly.
@@ -33,11 +34,9 @@ The interface of the application should be user-friendly and enable users to man
 
 }
 </style>
-<div  class="centerimage">
-<img width="auto" height="400" src="/images/vendor/umbrella1.png">
-</div>
 
-### Design Elements 🎨
+
+### Branding 🎨
 
 To create a brand identity that represents the company's mission and values, Umbrella Insurance can use a variety of design elements. Some possible design elements are:
 
@@ -53,6 +52,9 @@ The name Umbrella Insurance represents the company's objective of providing prot
 <b>Color Palette</b>
 {{< /callout >}}
 The color blue can be used as the primary color of the company's branding as it represents trust, security, and stability. Other colors that complement blue can also be used to create a visually appealing brand identity.
+<div  class="centerimage">
+<img width="auto" height="300" src="/images/vendor/blue.png">
+</div>
 {{< /callout >}}
 
 {{< callout type="default" contend="" >}}
@@ -60,6 +62,9 @@ The color blue can be used as the primary color of the company's branding as it 
 <b>Logo</b>
 {{< /callout >}}
 An umbrella can be used as a symbol in the company's logo as it represents protection from rain or other elements. By using an umbrella in the logo, the company can convey the message that it is there to protect its clients and provide financial security.
+<div  class="centerimage">
+<img width="auto" height="250" src="/images/vendor/Logo Umbrella.svg">
+</div>
 {{< /callout >}}
 
 {{< callout type="default" contend="" >}}
@@ -67,6 +72,10 @@ An umbrella can be used as a symbol in the company's logo as it represents prote
 <b>Images</b>
 {{< /callout >}}
 Images of people protected from unexpected events such as accidents, illnesses, or natural disasters can be used on the company's website and marketing materials to convey the message of safety and protection.
+<div  class="centerimage">
+
+<img width="auto" height="400" src="/images/vendor/umbrella1.png">
+</div>
 {{< /callout >}}
 
 {{< alert context="doubt" icon="">}}
