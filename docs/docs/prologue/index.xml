@@ -1,80 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ROADMAP on </title>
-    <link>https://doks.netlify.app/docs/prologue/</link>
-    <description>Recent content in ROADMAP on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://doks.netlify.app/docs/prologue/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Framework</title>
-      <link>https://doks.netlify.app/docs/prologue/introduction/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/introduction/</guid>
-      <description>We successfully developed our insurance solution during the Slingr Bootcamp by effectively utilizing low-code tools
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ROADMAP on</title><link>https://doks.netlify.app/docs/prologue/</link><description>Recent content in ROADMAP on</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 06 Oct 2020 08:48:45 +0000</lastBuildDate><atom:link href="https://doks.netlify.app/docs/prologue/index.xml" rel="self" type="application/rss+xml"/><item><title>Framework</title><link>https://doks.netlify.app/docs/prologue/introduction/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://doks.netlify.app/docs/prologue/introduction/</guid><description>We successfully developed our insurance solution during the Slingr Bootcamp by effectively utilizing low-code tools
 We were able to leverage the benefits of low-code platforms, including the ability to automate tasks and streamline processes, resulting in a comprehensive solution to a complex problem.
-Through the use of low-code tools, we were able to quickly build and deploy applications without having to spend a significant amount of time coding. This allowed us to focus on the development of the solution and provide a fast time-to-market for our project.</description>
-    </item>
-    
-    <item>
-      <title>Solution Scope</title>
-      <link>https://doks.netlify.app/docs/prologue/quick-start/</link>
-      <pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/quick-start/</guid>
-      <description>We worked on a project that involved different tasks... Firstly, we undertook thorough research to gain a comprehensive understanding of the complexities of the problem We also worked to establish a clear identity for the solution by selecting a suitable name and developing an institutional image. In addition, we developed a highly functional Platform App using Slingr, which allowed us to centralize all the business data and automate complex workflows.</description>
-    </item>
-    
-    <item>
-      <title>Understanding the problem</title>
-      <link>https://doks.netlify.app/docs/prologue/commands/</link>
-      <pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/commands/</guid>
-      <description>Umbrella Insurance, based in Mendoza, Argentina, is an insurance company that aims to provide peace of mind to its customers by safeguarding them from financial loss caused by unforeseen events such as accidents, illnesses, or natural disasters.
+Through the use of low-code tools, we were able to quickly build and deploy applications without having to spend a significant amount of time solving tehnical issues.</description></item><item><title>Solution Scope</title><link>https://doks.netlify.app/docs/prologue/quick-start/</link><pubDate>Mon, 16 Nov 2020 13:59:39 +0100</pubDate><guid>https://doks.netlify.app/docs/prologue/quick-start/</guid><description>user registration and login We worked on a project that involved different tasks... Understanding the problem
+Firstly, we undertook thorough research to gain a comprehensive understanding of the complexities of the problem Uniqueness of the solution
+We also worked to establish a clear identity for the solution by selecting a suitable name and developing an institutional image. Creation of the App
+In addition, we developed a highly functional Platform App using Slingr, which allowed us to centralize all the business data and automate complex workflows.</description></item><item><title>Understanding the problem</title><link>https://doks.netlify.app/docs/prologue/commands/</link><pubDate>Tue, 13 Oct 2020 15:21:01 +0200</pubDate><guid>https://doks.netlify.app/docs/prologue/commands/</guid><description>Umbrella Insurance, based in Mendoza, Argentina, is an fictitious insurance company that aims to provide peace of mind to its customers by safeguarding them from financial loss caused by unforeseen events such as accidents, illnesses, or natural disasters.
 To achieve this goal, the company needs a digital solution that offers various features such as
-user registration and login policy issuance claims reporting and tracking policy and coverage management capabilities Additionally, the digital solution should incorporate robust security features such as data encryption to ensure the privacy and security of user data.</description>
-    </item>
-    
-    <item>
-      <title>Platform Application</title>
-      <link>https://doks.netlify.app/docs/prologue/platform-app/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/platform-app/</guid>
-      <description>Goal The goal of the platform is to provide the company with a comprehensive system to manage policies, claims, and clients efficiently. The platform includes features to create policies, create claims, and manage them. Additionally, listeners are available that automatically update policy status based on their expiration and effective dates. An automatic mail sender is included to notify agents when claims are created and clients when the status of their claims change.</description>
-    </item>
-    
-    <item>
-      <title>Mobile App</title>
-      <link>https://doks.netlify.app/docs/prologue/-mobile-app/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/-mobile-app/</guid>
-      <description>Goal: The goal is to provide the company&amp;rsquo;s clients with an easy and fast way to access their information and communicate with their agents.
-Technology: To achieve this goal, Flutter Flow was used as a web-based platform. Flutter Flow allows developers to create and deploy mobile and web applications quickly and easily using a visual drag-and-drop interface.
-User features: The mobile app is designed for company customers. It provides a platform for customers to view their policies&amp;rsquo; status and all the relevant information regarding their policies and coverages.</description>
-    </item>
-    
-    <item>
-      <title>Landing Page</title>
-      <link>https://doks.netlify.app/docs/prologue/landing-page/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/landing-page/</guid>
-      <description>The main goal of our landing page is to provide top-notch service and unbeatable value to our clients. We believe that insurance should be easy, affordable, and personalized to your needs. Also we look forward to convert visitors into leads or customers.
-Our landing page was built using advanced technology to ensure it works well on all devices and provides you with the best possible browsing experience. Our team of experts used the latest web design and development tools to create a page that is both visually appealing and easy to use.</description>
-    </item>
-    
-    <item>
-      <title>Documentation</title>
-      <link>https://doks.netlify.app/docs/prologue/documentation/</link>
-      <pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate>
-      
-      <guid>https://doks.netlify.app/docs/prologue/documentation/</guid>
-      <description>We used Hugo, a cutting-edge static site generator, to quickly and efficiently build our high-quality website. Our goal is to provide you with a comprehensive record of our project&amp;rsquo;s design, development, and functionality, giving you valuable insights into our work. Thanks for exploring our documentation, and stay tuned for more exciting updates from our team!</description>
-    </item>
-    
-  </channel>
-</rss>
+User Management Policies Management Claims Management Coverages and metrics administration Additionally, the digital solution should incorporate robust security features such as data encryption to ensure the privacy and security of user data.</description></item><item><title>Platform Application</title><link>https://doks.netlify.app/docs/prologue/platform-app/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://doks.netlify.app/docs/prologue/platform-app/</guid><description>Goal The aim of the platform is to consolidate all the essential features into an integrated solution for a hypothetical insurance company. 📃 📢 ✉️ 📊 Features Users groups Policies management Claims management Metrics dashboard Users groups 👱🏼 Administrators: The admin is a user with full control over the insurance app's functionality and data. This user has access to all features and can manage user accounts, policies, claims, and other critical data.</description></item><item><title>Mobile App</title><link>https://doks.netlify.app/docs/prologue/-mobile-app/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://doks.netlify.app/docs/prologue/-mobile-app/</guid><description>Goal The goal is to provide the company's clients with an easy and fast way to access their information and communicate with their agents. Technology To achieve this goal, Flutter Flow was used as a web-based platform. Flutter Flow allows developers to create and deploy mobile and web applications quickly and easily using a visual drag-and-drop interface. User features The mobile app is designed for company customers. It provides a platform for customers to view their policies' status and all the relevant information regarding their policies and coverages.</description></item><item><title>Landing Page</title><link>https://doks.netlify.app/docs/prologue/landing-page/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://doks.netlify.app/docs/prologue/landing-page/</guid><description>Goal The goal is to convert visitors into customers by providing a great online experience Technology The landing page was developed with Webflow, a powerful web design and development platform. Our team utilized Webflow's advanced features to ensure that the website performs seamlessly on all devices, providing visitors with a consistent and intuitive browsing experience. We take pride in delivering a website that combines stunning visuals with functionality, ensuring that our visitors have an exceptional online experience.</description></item><item><title>Documentation</title><link>https://doks.netlify.app/docs/prologue/documentation/</link><pubDate>Tue, 06 Oct 2020 08:48:57 +0000</pubDate><guid>https://doks.netlify.app/docs/prologue/documentation/</guid><description> We built our website using Hugo, a modern static site generator for fast and efficient development. Our website provides a detailed record of our project&amp;rsquo;s design, development, and features to give you valuable insights into our work. Thank you for checking out our documentation, and stay tuned for more updates from our team!
+📍 We are here!</description></item></channel></rss>
