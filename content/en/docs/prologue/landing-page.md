@@ -12,7 +12,6 @@ menu:
 weight: 60
 toc: true
 ---
-Our landing page offers excellent service and great value for our clients. We believe insurance should be <code>easy, affordable, and personalized</code> to your needs. Our page is designed to work well on all devices and provides a visually appealing and <code>user-friendly experience</code>. We aim to convert <code>visitors into customers</code> and are committed to providing a great online experience.goal.
 
 <style>
 .centerimage {
@@ -24,7 +23,28 @@ Our landing page offers excellent service and great value for our clients. We be
 }
 </style>
 
-<div class="summary2"><b>Reponsive Website</b><br></div>
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>Goal</b>
+{{< /callout >}}
+The goal is to convert visitors into customers by providing a great online experience
+
+{{< /callout >}}
+
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>Technology</b>
+{{< /callout >}}
+The landing page was developed with Webflow, a powerful web design and development platform. Our team utilized Webflow's advanced features to ensure that the website performs seamlessly on all devices, providing visitors with a consistent and intuitive browsing experience. We take pride in delivering a website that combines stunning visuals with functionality, ensuring that our visitors have an exceptional online experience.{{< /callout >}}
+
+{{< callout type="default" contend="" >}}
+{{< callout type="default" contend="" >}}
+<b>User features</b>
+{{< /callout >}}
+We aim to provide excellent service and great value to our clients by offering personalized insurance options that are tailored to individual needs. Our goal is to present these options in a visually appealing and user-friendly design to create a seamless online experience.
+{{< /callout >}}
+
+
 <div  class="centerimage">
 <img width="auto" height="500" src="/images/vendor/mobile 2.gif">
 </div>

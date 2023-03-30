@@ -68,57 +68,40 @@ The <code>aim</code> of the platform is to consolidate all the essential feature
 </div>
 {{< /callout >}}
 
-
 {{< callout type="default" contend="" >}}
-{{< callout type="default" contend="" >}}
-<b>Technology</b>
-{{< /callout >}}
-
-Slingr empowers us to achieve our goal through the use of revolutionary technology that enables high-speed, seamless integration, and cost-effective development. With Slingr, we can effortlessly incorporate a wide range of apps and services into our business profile via a RESTful API, including Mandrill for email services, Flutter Flow for mobile app development, and Webflow for building a landing page.
-
-{{< /callout >}}
-
-
-{{< callout type="default" contend="" >}}
-
 {{< callout type="default" contend="" >}}
 <b>Features</b>
 {{< /callout >}}
 <ul class="list-group">
- 
-<li class="list-group-item" >
-Policies management
-</li>
-<li class="list-group-item" >
-Claims management
-</li>
-<li class="list-group-item" >
-Users management 
-</li>
-<li class="list-group-item" >
-Metrics dashboard
-</li>
+<li class="list-group-item" >Users groups</li>
+
+<li class="list-group-item" >Policies management</li>
+<li class="list-group-item" >Claims management</li>
+<li class="list-group-item" >Metrics dashboard</li>
 </ul>
 <div class="summary2">
-<b>Policies management</b><br>
-In the context of <code>insurance</code>, a <code>policy</code> is a contract between an insurance company and an individual or organization that outlines the <code>terms and conditions</code> of the insurance coverage. It specifies the type of <code>coverage</code> being provided, the <code>amount of coverage</code>, the <code>cost of the coverage</code>, the <code>length of time</code> the policy is in effect, and any other <code>relevant details</code> of the agreement. The policy serves as a legal document that both the <code>insurer</code> and the <code>insured</code> must adhere to. Depending on the user's group, they can <code>create</code>, <code>edit</code>, <code>delete</code>, and <code>read</code> their own policies or policies of others within their panel. These policies can cover various areas such as <code>home</code>, <code>health</code>, or <code>car insurance</code>.
-
-
-
+    <b>Users groups 👱🏼</b><br>
+    <ul>
+        <b><li> Administrators:</b> <br>
+        The admin is a user with full control over the insurance app's functionality and data. This user has access to all features and can manage user accounts, policies, claims, and other critical data. The admin can add or remove agents, view reports, and configure system settings.<br>
+        Admins have access to all information about admins, agents, and customers, as well as platform functionalities like "restore data." The Admin Panel includes a metrics dashboard, policies section, claims section with standard and workflow views, customers section, and administration section. The settings section has "restore data" functionality to reset the app data to default values.</li>
+        <b><li>Customers:</b> Access <code>their own policies and claims</code> by management views.</li>
+    </ul>
 </div>
 <div class="summary2">
-<b>Claims management</b><br>
-In the context of insurance, a policy is a contract between an insurance company and an individual or organization that outlines the terms and conditions of the insurance coverage. It specifies the type of coverage being provided, the amount of coverage, the cost of the coverage , the length of time the policy is in effect, and any other relevant details of the agreement. The policy serves as a legal document that both the insurer and the insured must adhere to.Depending on the user's group, they can create, edit, delete, and read their own policies or policies of others within their panel. These policies can cover various areas such as home, health, or car insurance.
-
+    <b>Policies management 📃</b><br>
+    In insurance, a <code>policy</code> is a <code>contract between an insurer and an organization. </code>Our app allows users to <code>create</code>, <code>edit</code>, <code>delete</code>, and <code>read</code> their policies, <code>covering areas</code> like home, health, or car insurance.
 </div>
+
 <div class="summary2">
-<b>Users management </b><br>
-In the context of insurance, a policy is a contract between an insurance company and an individual or organization that outlines the terms and conditions of the insurance coverage. It specifies the type of coverage being provided, the amount of coverage, the cost of the coverage , the length of time the policy is in effect, and any other relevant details of the agreement. The policy serves as a legal document that both the insurer and the insured must adhere to.Depending on the user's group, they can create, edit, delete, and read their own policies or policies of others within their panel. These policies can cover various areas such as home, health, or car insurance.
-
+    <b>Claims management 📢</b><br>
+    Customers can submit insurance claims to their respective agents, who manage the claims process.
 </div>
+
+
+
 <div class="summary2">
-<b>Metrics dashboard</b><br>
-In the context of insurance, a policy is a contract between an insurance company and an individual or organization that outlines the terms and conditions of the insurance coverage. It specifies the type of coverage being provided, the amount of coverage, the cost of the coverage , the length of time the policy is in effect, and any other relevant details of the agreement. The policy serves as a legal document that both the insurer and the insured must adhere to.Depending on the user's group, they can create, edit, delete, and read their own policies or policies of others within their panel. These policies can cover various areas such as home, health, or car insurance.
+    <b>Metrics dashboard 📊</b><br>
 
+    Our app has a <code>customized metric dashboard</code> that covers <code>important areas of the insurance industry</code>. This feature, powered by Slingr technology, helps admins make <code>informed decisions</code> to improve app performance.
 </div>
-{{< /callout >}}
