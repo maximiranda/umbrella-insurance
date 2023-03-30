@@ -13,7 +13,7 @@
 </h3>
 
 <p align="center">
-  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
+  The Umbrella Insurance provides comprehensive insurance solutions to individuals and businesses.
 </p>
 
 <p align="center">
