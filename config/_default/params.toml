@@ -1,16 +1,15 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Slingr"
+title = "Umbrella Insurance"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description = "The Umbrella Insurance provides comprehensive insurance solutions to individuals and businesses."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["https://uploads-ssl.webflow.com/63ea3a05687e2c3515c974ce/63ecf2e695abd330b503a925_Inkscape%20Logo%202.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
 titleHome = "Doks Theme"
