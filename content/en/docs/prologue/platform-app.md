@@ -43,7 +43,7 @@ toc: true
   .emoji-grid span {
     font-size: 3rem;
     line-height: 3rem;
-    padding: 1rem; /* increased padding to space emojis apart */
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,3 +154,4 @@ Our app has a customized metric dashboard that covers the important areas of the
 <img width="auto" height="auto" src="/images/vendor/metrics.png">
 </div>
 </div>
+{{< /callout >}}
