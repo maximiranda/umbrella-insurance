@@ -25,7 +25,7 @@ weight: 10
 </style>
 
 <div  class="centerimage">
-<img width="auto" height="500" src="/images/vendor/patito.jpeg">
+<img width="auto" src="/images/vendor/patito.jpeg">
 </div>
 
 
@@ -40,7 +40,7 @@ We successfully developed our insurance solution during the `Slingr Bootcamp` by
 
 Through the use of low-code tools, we were able to quickly build and deploy applications `without having to spend a significant amount of time solving tehnical issues`. This allowed us to focus on the development of the solution and provide a fast time-to-market for our project. Automating repetitive tasks like data entry and report generation allowed us to be more productive and allocate our time to more strategic activities.
 <div  class="centerimage">
-<img width="auto" height="450" src="/images/vendor/bootcamp1.jpeg">
+<img width="auto" src="/images/vendor/bootcamp1.jpeg">
 </div>
 
 The built-in collaboration features of low-code platforms were also incredibly beneficial for our team. We were able to `easily work together` on the project and communicate effectively with each other, resulting in a more efficient and effective development process. These collaboration tools helped us to minimize errors and delays and ultimately deliver a high-quality solution to the problem at hand.
